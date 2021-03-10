@@ -36,6 +36,16 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "brown",
+        "silver"
+      ],
+      "default": "black"
     }
   }
 }
